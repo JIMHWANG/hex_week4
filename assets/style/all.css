@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+@import url(https://fonts.google.com/specimen/Noto+Sans?query=san);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +55,9 @@ img {
 a {
   text-decoration: none;
   color: inherit; }
+
+body {
+  font-family: Roboto, Noto Sans; }
 
 a:hover {
   color: blue;

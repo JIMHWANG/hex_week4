@@ -1,5 +1,4 @@
 .Question{
-    border: 1px solid #000;
     padding: 96px 500px 108px 405px;
     h1{
         font-size: $fz48;
@@ -27,6 +26,39 @@
             margin-top: 16px;
             margin-bottom: 32px;
             padding-left: 92px;
+        }
+    }
+    @media (max-width:768px){
+        padding: 60px 39px 96px 39px;
+    }
+    @media (max-width:376px){
+        padding: 36px 15px 56px 15px;
+        h1{
+            font-size: $fz28;
+            line-height: 1.4;
+            padding-left: 8px;
+            border-left: 4px solid #aa0601;
+        }
+        h2{
+            font-size: $fz20;
+            line-height: 1.45;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        .QA{
+            h3{
+                font-size: 16px;
+                line-height: 1.5;
+            }
+            p{
+                padding-left: 0;
+                margin-top: 8px;
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            p:nth-child(2){
+                display: none;
+            }
         }
     }
 }

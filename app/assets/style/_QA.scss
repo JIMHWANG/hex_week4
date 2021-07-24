@@ -1,0 +1,32 @@
+.Question{
+    border: 1px solid #000;
+    padding: 96px 500px 108px 405px;
+    h1{
+        font-size: $fz48;
+        line-height: 1.45;
+        padding-left: 16px;
+        font-weight: bold;
+        border-left: 8px solid #aa0601;        
+    }
+    h2{
+        font-size: $fz32;
+        line-height: 1.4;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 36px;
+    }
+    .QA{
+        h3{
+            font-size: $fz20;
+            line-height: 1.4;
+            font-weight: bold;
+        }
+        p{
+            font-weight: bold;
+            line-height: 1.5;
+            margin-top: 16px;
+            margin-bottom: 32px;
+            padding-left: 92px;
+        }
+    }
+}

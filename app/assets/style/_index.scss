@@ -23,12 +23,43 @@
         overflow: hidden;
         white-space: nowrap;
     }
-    a{
-        color: $fontWhiteColor;
-    }
     nav ul li a:hover{
         color: $hovercolor;
         font-weight: bold;
+    }
+    @media (max-width:768px){
+        padding: 30px 39px;
+        nav ul{
+            width: 420px;        
+        }
+    }
+    @media (max-width:376px){
+        display: block;
+        padding: 0;
+        h1{
+            padding: 10px 0;
+            border: 1px solid #fff;
+        }
+        h1 a{
+            width: 48px;
+            height: 30px; //讓a標籤與圖片相等寬高
+            margin: 0 auto;
+            background-size: 48px 30px;
+            background-repeat: no-repeat;
+        }
+        nav ul {
+            width: inherit;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 0;
+        }
+        nav ul li{            
+            text-align: center;
+            width: 50%;
+            box-sizing: border-box;
+            border: 2px solid #fff;
+            border-top: none;
+        }
     }
 }
 

@@ -291,6 +291,20 @@ a:hover {
     width: 200px;
     background-color: #aa0601; }
 
+.banner {
+  width: inherit;
+  padding: 348px 405px 352px 992px;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true) no-repeat;
+  color: #650300; }
+  .banner p {
+    width: 576px;
+    line-height: 1.4;
+    font-size: 36px;
+    text-align: right; }
+  .banner p:nth-child(2) {
+    font-size: 64px;
+    font-weight: bold; }
+
 .Question {
   padding: 96px 500px 108px 405px; }
   .Question h1 {

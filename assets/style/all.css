@@ -297,13 +297,36 @@ a:hover {
   background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true) no-repeat;
   color: #650300; }
   .banner p {
-    width: 576px;
+    max-width: 576px;
     line-height: 1.4;
     font-size: 36px;
+    white-space: nowrap;
     text-align: right; }
+  .banner p:nth-child(1) {
+    padding-left: 64px; }
   .banner p:nth-child(2) {
     font-size: 64px;
     font-weight: bold; }
+  @media (max-width: 768px) {
+    .banner {
+      padding: 372px 0;
+      background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true) no-repeat;
+      padding-left: 150px; }
+      .banner p {
+        font-size: 20px; }
+      .banner p:nth-child(1) {
+        padding-left: 0px; }
+      .banner p:nth-child(2) {
+        font-size: 48px; } }
+  @media (max-width: 376px) {
+    .banner {
+      padding: 164px 0;
+      background-size: 375px 400px;
+      padding-right: 15px; }
+      .banner p {
+        font-size: 16px; }
+      .banner p:nth-child(2) {
+        font-size: 32px; } }
 
 .Question {
   padding: 96px 500px 108px 405px; }

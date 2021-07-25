@@ -457,6 +457,63 @@
             margin-left: 176px;
         }
     }
+    @media (max-width:768px) {
+        padding: 40px 159px 56px 159px;
+        h2{
+            font-size: $fz32;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+        .contact-out-list{
+            label{
+                font-size: 14px;
+                line-height: 1.42;
+            }
+            label:nth-child(n+2){
+                margin-top: 8px;
+            }
+            input[type="text"]{                
+                padding: 8px 0 8px 12px;
+            }
+            input[type="text"]:last-of-type{
+                padding-bottom: 72px;
+            }        
+            .privacy-approve{
+                input[type="checkbox"]{
+                    margin-top: 10px;
+                }
+            }
+            button{                
+                width: 210px;
+                height: 40px;
+                margin-top: 30px;
+                margin-left: 120px;
+            }
+        }
+    }
+    @media (max-width:376px) {
+        padding: 30px 15px 40px 15px;
+        h2{
+            font-size: $fz20;
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 8px;
+        }
+        .contact-out-list{
+            input[type="text"]{                
+                padding: 7px 0 9px 12px;
+            }     
+            button{                
+                width: 165px;
+                height: 36px;
+                margin-top: 20px;
+                margin-left: 90px;
+            }
+        }        
+    }
 }
 
     

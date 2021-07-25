@@ -538,6 +538,44 @@ a:hover {
       height: 455px;
       background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true0) no-repeat;
       background-size: 540px 455px; }
+  @media (max-width: 768px) {
+    .co-branding {
+      padding: 40px 39px 56px 39px; }
+      .co-branding h2 {
+        font-size: 32px;
+        line-height: 1.45;
+        margin-bottom: 32px; }
+      .co-branding .two-brands {
+        max-width: 690px;
+        font-size: 32px; }
+        .co-branding .two-brands .douleA {
+          padding-top: 118px;
+          width: 330px;
+          height: 278px;
+          background-size: 330px 278px; }
+        .co-branding .two-brands .youth {
+          padding-top: 118px;
+          width: 330px;
+          height: 278px;
+          background-size: 330px 278px; } }
+  @media (max-width: 376px) {
+    .co-branding {
+      padding: 32px 15px 40px 15px; }
+      .co-branding h2 {
+        font-size: 29px;
+        margin-bottom: 20px; }
+      .co-branding .two-brands {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        max-width: 345px; }
+        .co-branding .two-brands .douleA {
+          padding-top: 124px;
+          height: 291px;
+          background-size: 330px 291px; }
+        .co-branding .two-brands .youth {
+          padding-top: 124px;
+          height: 291px;
+          background-size: 330px 291px; } }
 
 .Question {
   padding: 96px 500px 108px 405px; }

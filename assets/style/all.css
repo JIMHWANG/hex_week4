@@ -328,6 +328,38 @@ a:hover {
       .banner p:nth-child(2) {
         font-size: 32px; } }
 
+.promise {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #FBF2F2;
+  font-weight: bold;
+  color: #650300; }
+  .promise h2 {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 48px;
+    line-height: 1.45; }
+  .promise ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .promise ul li {
+      max-width: 255px;
+      margin-right: 30px;
+      text-align: center; }
+      .promise ul li img {
+        height: 88px;
+        width: 88px; }
+      .promise ul li h3 {
+        font-size: 24px;
+        margin-top: 27px;
+        margin-bottom: 8px; }
+      .promise ul li p {
+        text-align: left; }
+
 .Question {
   padding: 96px 500px 108px 405px; }
   .Question h1 {

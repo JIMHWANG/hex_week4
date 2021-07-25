@@ -503,6 +503,42 @@ a:hover {
         background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-3.png?raw=true);
         background-size: 345px 134px; } }
 
+.co-branding {
+  padding: 60px 405px 80px 405px;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true) no-repeat center center; }
+  .co-branding h2 {
+    font-size: 48px;
+    line-height: 1.45;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; }
+  .co-branding .two-brands {
+    width: 1110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;
+    color: #aa0601; }
+    .co-branding .two-brands .douleA {
+      padding-top: 180px;
+      width: 540px;
+      height: 455px;
+      background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true) no-repeat;
+      background-size: 540px 455px; }
+    .co-branding .two-brands .youth {
+      padding-top: 180px;
+      width: 540px;
+      height: 455px;
+      background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true0) no-repeat;
+      background-size: 540px 455px; }
+
 .Question {
   padding: 96px 500px 108px 405px; }
   .Question h1 {

@@ -4,13 +4,44 @@
     background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true) no-repeat;
     color: #650300;
     p{
-        width: 576px;
+        max-width: 576px;
         line-height: 1.4;
         font-size: $fz36;
+        white-space: nowrap;
         text-align: right;
+    }
+    p:nth-child(1){
+        padding-left: 64px;
     }
     p:nth-child(2){
         font-size: 64px;
         font-weight: bold;
     }
+    @media (max-width:768px){
+        padding: 372px 0;
+        background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true) no-repeat;
+        padding-left: 150px; //為何這個在376px會沒吃到?        
+        p{
+            font-size: $fz20;
+        }
+        p:nth-child(1){
+            padding-left: 0px;
+        }
+        p:nth-child(2){
+            font-size: $fz48;
+        }
+    }
+    @media (max-width:376px) {
+        padding: 164px 0;
+        background-size: 375px 400px;
+        padding-right: 15px;
+        p{
+            font-size: 16px;
+        }
+        p:nth-child(2){
+            font-size: $fz32;
+        }
+    }
 }
+
+    

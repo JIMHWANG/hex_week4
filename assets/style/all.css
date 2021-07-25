@@ -577,6 +577,39 @@ a:hover {
           height: 291px;
           background-size: 330px 291px; } }
 
+.recommend {
+  padding: 60px 405px 80px 405px;
+  font-weight: bold;
+  color: #650300; }
+  .recommend h2 {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 48px;
+    line-height: 1.45; }
+  .recommend .customer-opinion {
+    width: 1110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .recommend .customer-opinion li {
+      border: 1px solid #000; }
+    .recommend .customer-opinion img {
+      width: 265px;
+      height: 256px; }
+    .recommend .customer-opinion .opinion {
+      padding: 16px;
+      color: #000; }
+      .recommend .customer-opinion .opinion p {
+        width: 233px;
+        line-height: 1.5; }
+      .recommend .customer-opinion .opinion p:nth-child(2) {
+        margin-top: 8px;
+        margin-bottom: 52px;
+        height: 72px; }
+
 .Question {
   padding: 96px 500px 108px 405px; }
   .Question h1 {

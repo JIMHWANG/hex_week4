@@ -681,6 +681,45 @@ a:hover {
     line-height: 1.4;
     margin-top: 40px;
     margin-left: 176px; }
+  @media (max-width: 768px) {
+    .contact-our {
+      padding: 40px 159px 56px 159px; }
+      .contact-our h2 {
+        font-size: 32px; }
+      .contact-our p {
+        font-size: 16px;
+        margin-bottom: 16px; }
+      .contact-our .contact-out-list label {
+        font-size: 14px;
+        line-height: 1.42; }
+      .contact-our .contact-out-list label:nth-child(n+2) {
+        margin-top: 8px; }
+      .contact-our .contact-out-list input[type="text"] {
+        padding: 8px 0 8px 12px; }
+      .contact-our .contact-out-list input[type="text"]:last-of-type {
+        padding-bottom: 72px; }
+      .contact-our .contact-out-list .privacy-approve input[type="checkbox"] {
+        margin-top: 10px; }
+      .contact-our .contact-out-list button {
+        width: 210px;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: 120px; } }
+  @media (max-width: 376px) {
+    .contact-our {
+      padding: 30px 15px 40px 15px; }
+      .contact-our h2 {
+        font-size: 20px;
+        margin-bottom: 20px; }
+      .contact-our p {
+        margin-bottom: 8px; }
+      .contact-our .contact-out-list input[type="text"] {
+        padding: 7px 0 9px 12px; }
+      .contact-our .contact-out-list button {
+        width: 165px;
+        height: 36px;
+        margin-top: 20px;
+        margin-left: 90px; } }
 
 .Question {
   padding: 96px 500px 108px 405px; }

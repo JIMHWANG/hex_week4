@@ -609,6 +609,38 @@ a:hover {
         margin-top: 8px;
         margin-bottom: 52px;
         height: 72px; }
+  @media (max-width: 768px) {
+    .recommend {
+      padding: 40px 39px 56px 39px; }
+      .recommend h2 {
+        margin-bottom: 32px;
+        font-size: 32px; }
+      .recommend .customer-opinion {
+        width: 690px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        .recommend .customer-opinion img {
+          width: 330px; }
+        .recommend .customer-opinion li:nth-child(n+3) {
+          margin-top: 32px; }
+        .recommend .customer-opinion .opinion p {
+          width: 282px; } }
+  @media (max-width: 376px) {
+    .recommend {
+      padding: 32px 15px 40px 15px; }
+      .recommend h2 {
+        margin-bottom: 20px;
+        font-size: 20px; }
+      .recommend .customer-opinion {
+        width: 345px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        .recommend .customer-opinion img {
+          width: 345px; }
+        .recommend .customer-opinion li:nth-child(n+2) {
+          margin-top: 16px; }
+        .recommend .customer-opinion .opinion p {
+          width: 297px; } }
 
 .Question {
   padding: 96px 500px 108px 405px; }
